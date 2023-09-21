@@ -202,7 +202,14 @@
     "postprocessing_enable_in_main_ui": [],
     "postprocessing_operation_order": [],
     "upscaling_max_images_in_cache": 5,
-    "disabled_extensions": [],
+    "disabled_extensions": [
+    "sd-webui-agent-scheduler",
+    "stable-diffusion-webui-images-browser",
+    "clip-interrogator-ext",
+    "a1111-sd-webui-lycoris",
+    "multidiffusion-upscaler-for-automatic1111",
+    "stable-diffusion-webui-rembg"
+    ],
     "disable_all_extensions": "none",
     "restore_config_state_file": "",
     "sd_checkpoint_hash": "4bc26d77a811f3b69d58df8b4b95cb44938d1699e1c4089642961e5868754d33",
