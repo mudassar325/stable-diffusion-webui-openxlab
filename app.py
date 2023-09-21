@@ -102,4 +102,4 @@ os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civita
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/144229 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o protovisionXLHighFidelity3D_beta0520Bakedvae.safetensors")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/125771 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o toonyou_beta6.safetensors")
 # os.system(f"python launch.py --cors-allow-origins=* --opt-sdp-no-mem-attention --opt-channelslast --enable-insecure-extension-access --gradio-img2img-tool color-sketch --theme dark --disable-safe-unpickle --ui-settings-file /home/xlab-app-center/config.json --ui-config-file /home/xlab-app-center/ui-config.json")
-os.system(f"bash webui.sh --upgrade --enable-insecure-extension-access --gradio-img2img-tool color-sketch --theme dark --disable-safe-unpickle")
+os.system(f"bash webui.sh --upgrade --theme dark --disable-safe-unpickle")
