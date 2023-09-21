@@ -19,7 +19,7 @@ os.system(f"git clone https://github.com/zanllp/sd-webui-infinite-image-browsing
 # os.system(f"git clone https://github.com/camenduru/stable-diffusion-webui-huggingface /home/xlab-app-center/stable-diffusion-webui/extensions/stable-diffusion-webui-huggingface")
 # os.system(f"git clone https://github.com/camenduru/sd-civitai-browser /home/xlab-app-center/stable-diffusion-webui/extensions/sd-civitai-browser")
 # os.system(f"git clone https://github.com/kohya-ss/sd-webui-additional-networks /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-additional-networks")
-os.system(f"git clone https://github.com/Mikubill/sd-webui-controlnet /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-controlnet")
+# os.system(f"git clone https://github.com/Mikubill/sd-webui-controlnet /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-controlnet")
 # os.system(f"git clone https://github.com/fkunn1326/openpose-editor /home/xlab-app-center/stable-diffusion-webui/extensions/openpose-editor")
 # os.system(f"git clone https://github.com/jexom/sd-webui-depth-lib /home/xlab-app-center/stable-diffusion-webui/extensions/sd-webui-depth-lib")
 # os.system(f"git clone https://github.com/hnmr293/posex /home/xlab-app-center/stable-diffusion-webui/extensions/posex")
