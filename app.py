@@ -92,7 +92,7 @@ os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civita
 # os.system(f"sed -i -e '225,227d' /home/xlab-app-center/stable-diffusion-webui/modules/ui_loadsave.py")
 # os.system(f"sed -i -e '214,217d' /home/xlab-app-center/stable-diffusion-webui/modules/ui_loadsave.py")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/130072 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o realisticVisionV51_v51VAE.safetensors")
-os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/142219 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o x-men cyclops man 1a-000025.safetensors")
+os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/models/143043/starlight-xl-animated -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o Starlight XL 星光 Animated")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/128713 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o dreamshaper_8.safetensors")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/126470 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o majicmixRealistic_betterV2V25.safetensors")
 os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://civitai.com/api/download/models/46846 -d /home/xlab-app-center/stable-diffusion-webui/models/Stable-diffusion -o revAnimated_v122.safetensors")
